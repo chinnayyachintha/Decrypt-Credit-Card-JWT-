@@ -71,7 +71,7 @@ def create_jwt():
 # Create the JWT
 jwt_token = create_jwt()
 print(f"Generated JWT Token: {jwt_token}")
-
+```
 Step 2: Server-Side (Verifying and Decrypting JWT)
 The following Python script is for the server to verify and decrypt the encrypted credit card data:
 
@@ -114,7 +114,7 @@ def process_jwt(jwt_token):
 # Example of using process_jwt
 received_jwt_token = 'REPLACE_WITH_RECEIVED_JWT'
 process_jwt(received_jwt_token)
-
+```
 Security Considerations
 JWT Expiry: Ensure the JWT includes a short expiration time to avoid replay attacks.
 Secure Transmission: Always transmit JWT over HTTPS to prevent interception.
