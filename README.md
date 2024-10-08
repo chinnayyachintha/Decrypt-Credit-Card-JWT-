@@ -17,7 +17,7 @@ Install the following Python libraries:
 
 ```bash
 pip install boto3 PyJWT cryptography
-
+```
 Step-by-Step Instructions
 Step 1: Client-Side (Encrypting and Creating JWT)
 This Python script shows how to encrypt credit card data and create a JWT token:
