@@ -15,6 +15,11 @@ This section explains how to implement the process of decrypting credit card `me
 
 Install the following Python libraries:
 
+**Python Libraries Required:**
+boto3: AWS SDK for Python (for working with AWS KMS).
+PyJWT: Python library to encode and decode JWT tokens.
+cryptography: Optional, for handling encryption tasks.
+
 ```bash
 pip install boto3 PyJWT cryptography
 ```
